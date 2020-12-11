@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.7rem;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.section-one {
+  color: #141c3a;
+  background-color: #c0f5d6;
+  display: flex;
+  padding: 0 2rem 0 2rem;
+}
+.section-two {
+  color: #141c3a;
+  display: flex;
+  padding: 0 2rem 0 2rem;
+}
+
+.section-three {
+  color: #141c3a;
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.section-four {
+  color: #141c3a;
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.section-five {
+  color: #141c3a;
+  background-color: #dafdf8;
+  padding: 2rem 0 5rem 0;
+}

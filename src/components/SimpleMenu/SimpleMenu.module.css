@@ -1,0 +1,23 @@
+.MyCustomButton:hover {
+  background-color: inherit !important;
+}
+
+.SimpleMenuDiv {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.SimpleMenuLinks {
+  color: #141c3a;
+  list-style: none;
+  text-decoration: none;
+}
+
+.SimpleMenuButton {
+  background-color: transparent;
+  color: #141c3a;
+  position: fixed;
+}

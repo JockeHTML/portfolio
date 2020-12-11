@@ -1,0 +1,44 @@
+.footerContainer {
+  background-color: #c0f5d6;
+  color: #141c3a;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.links i {
+  background-color: #141c3a;
+  color: #dafdf8;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 2px #888;
+  padding: 13px 14px;
+  border: 2px solid transparent;
+}
+
+.links i:hover {
+  border: 2px solid #141c3a;
+  background-color: #dafdf8;
+  color: #141c3a;
+  transition: 0.1s linear;
+}
+
+.links a {
+  padding: 1.1rem;
+}
+
+.copyright p {
+  color: #141c3a;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  opacity: 0.7;
+  opacity: 1;
+}
+
+.copyright {
+  padding-top: 2rem;
+}

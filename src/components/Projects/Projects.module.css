@@ -1,0 +1,184 @@
+.projectsContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.projectsHeading {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.projects {
+  flex-wrap: wrap;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects h4 {
+  display: flex;
+  padding: 15px 15px 0 15;
+}
+
+.projects h2 {
+  font-family: "Acme", sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: inherit;
+}
+
+.projects > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects > div {
+  padding: 1rem;
+  margin: 1rem;
+  min-height: 200px;
+  width: 33.33%;
+  border-radius: 12px;
+  transition: 0.6s ease-out;
+}
+
+.projects div {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.movie {
+  background: url("../../images/movie.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.weather {
+  background: url("../../images/weather.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.todo {
+  filter: grayscale(90%);
+  background: url("../../images/notebook.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.covid {
+  background: url("../../images/covid.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/* HOVER CARD */
+
+.links {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover {
+  background-color: #141c3a;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects :hover {
+  opacity: 1;
+}
+
+.hover a {
+  margin-right: 10px;
+  margin-top: 0;
+  border: 1px solid #c7e6e2;
+  padding: 1rem;
+  color: #c7e6e2;
+  text-decoration: none;
+  border-radius: 290486px;
+  border-width: 2px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.hover a:hover {
+  background-color: #c7e6e2;
+  color: #141c3a;
+  font-weight: 800;
+}
+
+.hover h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.3rem 1rem 0 1rem;
+  margin: 0;
+}
+
+@media (max-width: 950px) {
+  .projectsContainer h1 {
+    font-size: 2.5rem;
+  }
+  .projectsContainer h4 {
+    font-size: 1.2rem;
+  }
+  .projects h4 {
+    padding: 10px 10px 0 10px;
+  }
+  .projects > div {
+    width: 300px;
+    margin: 5px;
+  }
+  .projectsHeading {
+    width: 60%;
+  }
+  .projectsContainer {
+    padding: 4rem 0 3rem 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects h2 {
+    font-size: 1.9rem;
+  }
+  .projectsContainer h4 {
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  .projects h4 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 0 1rem 0 1rem;
+  }
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects > div {
+    width: 35%;
+    height: 225px;
+  }
+  .projectsHeading {
+    width: 400px;
+  }
+}

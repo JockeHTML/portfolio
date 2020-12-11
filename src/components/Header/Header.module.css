@@ -1,0 +1,93 @@
+.headerContainer {
+  scroll-behavior: smooth;
+  color: #141c3a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDiv {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.headerDiv h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.35rem;
+}
+
+.headerImage {
+  content: url("../../images/blue.png");
+  height: 500px;
+  width: 700px;
+}
+
+.iconDiv {
+  padding: 1rem;
+  margin: 0;
+}
+
+.iconDiv i {
+  font-size: 5rem;
+  color: #141c3a;
+  padding: 3.5rem;
+  margin: 0;
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .iconDiv i {
+    font-size: 4.5rem;
+  }
+  .headerContainer h1 {
+    font-size: 2.5rem;
+  }
+  .headerContainer h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .headerImage {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 650px;
+  }
+  .imageDiv {
+    width: 50%;
+  }
+
+  .headerContainer h1 {
+    font-size: 2.2rem;
+  }
+  .headerContainer h4 {
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .headerImage {
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 500px;
+  }
+}

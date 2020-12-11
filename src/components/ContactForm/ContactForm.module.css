@@ -1,0 +1,88 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.formHeading h1 {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 0;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 5px;
+  min-width: 450px;
+}
+
+.message textarea {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  text-decoration: none;
+  min-height: 150px;
+  padding: 1.1rem;
+  margin: 5px;
+  min-width: 450px;
+}
+
+.formButton button {
+  box-shadow: 0px 0px 2px #888;
+  font-size: 1rem;
+  padding: 12px;
+  float: right;
+  margin-right: 4px;
+  border: 2px solid transparent;
+  color: #dafdf8;
+  background-color: #141c3a;
+  font-weight: 600;
+}
+
+.formButton button:hover {
+  color: #141c3a;
+  background-color: #dafdf8;
+  transition: 0.3s;
+  border: 2px solid #141c3a;
+}
+
+.form {
+  min-width: 450px;
+}
+
+@media (max-width: 950px) {
+  .formHeading h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .input input {
+    padding: 1rem;
+    margin: 5px;
+    min-width: 350px;
+  }
+  .message textarea {
+    min-height: 150px;
+    padding: 1.1rem;
+    margin: 5px;
+    min-width: 350px;
+  }
+  .formButton button {
+    font-size: 1rem;
+    padding: 8px;
+    margin-right: 32px;
+  }
+  .formHeading h1 {
+    font-size: 2.2rem;
+  }
+  .formHeading h4 {
+    font-size: 1.1rem;
+  }
+}
