@@ -22,10 +22,10 @@ function App() {
         <section id="section-two" className="section-two">
           <AboutAlt />
         </section>
-        <section id="section-three" className="section-two">
+        <section id="section-two" className="section-two">
           <Skills />
         </section>
-        <section id="section-four" className="section-three">
+        <section id="section-three" className="section-three">
           <Projects />
         </section>
         <section id="section-five" className="section-five">

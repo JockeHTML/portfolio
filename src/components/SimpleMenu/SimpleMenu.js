@@ -6,15 +6,14 @@ import IconButton from "@material-ui/core/IconButton";
 import styles from './SimpleMenu.module.css';
 
 function SimpleMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = React.useState(false);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
-    setAnchorEl(null);
-    
+    setAnchorEl(!anchorEl);
   };
 
   return (
@@ -27,8 +26,7 @@ function SimpleMenu() {
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
+        onClose={handleClose}>
         <a className={styles.SimpleMenuLinks} href="#header"><MenuItem href="#header" onClick={handleClose}>Home</MenuItem></a>
         <a className={styles.SimpleMenuLinks} href="#section-one"><MenuItem href="#section-one" onClick={handleClose}>About</MenuItem></a>
         <a className={styles.SimpleMenuLinks} href="#section-two"> <MenuItem href="#section-two" onClick={handleClose}>Skills</MenuItem></a> 

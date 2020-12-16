@@ -20,12 +20,12 @@
   padding-left: 2.5rem;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   .aboutContainer h1 {
     font-size: 2.5rem;
   }
   .aboutContainer h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .aboutContainer {
     padding: 4rem 0 3rem 0;
@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .aboutImage {
     width: 400px;
     padding-left: 0;
@@ -49,25 +49,26 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 3rem;
   }
   .aboutInfo {
-    width: 400px;
+    width: 80%;
     margin: 0;
     padding: 0;
   }
   .aboutContainer h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
   .aboutContainer h4 {
     font-weight: 300;
     font-size: 1.1rem;
   }
   .aboutImage {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 450px) {
   .aboutImage {
     width: 300px;
     padding-left: 0;
