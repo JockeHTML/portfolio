@@ -9,7 +9,7 @@ function Hobbies (props) {
             </div>
             <div className={styles.aboutAltInfo}>
                 <h1>Why Front-End?</h1>
-                <h4>I started off taking a online course where i got to try both front and back-end. I have always had an eye for details and i am a perfectionist overall, so i got hooked pretty fast on the front-end side. Front-end has the upside of immediately see what you create, which for me gives me alot of joy and have kept me motivated to continue.</h4>
+                <h4>I started off taking a online course where i got to try both front and back-end. I like to think i have an eye for details so i got hooked pretty fast on the front-end side. Front-end has the upside of immediately see what you create, which gives me alot of joy and have kept me motivated to continue.</h4>
             </div>
         </div>
     );
