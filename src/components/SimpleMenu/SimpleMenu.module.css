@@ -1,22 +1,82 @@
-.MyCustomButton:hover {
-  background-color: inherit !important;
-}
-
-.SimpleMenuDiv {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 2rem;
-  padding-top: 1rem;
-}
-
 .SimpleMenuLinks {
-  color: #141c3a;
   list-style: none;
   text-decoration: none;
+  padding: 1rem 1rem 1rem 0;
 }
 
 .SimpleMenuButton {
   background-color: transparent;
   color: #141c3a;
   position: fixed;
+}
+
+.hamburger {
+  align-items: center;
+  background-color: transparent;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  position: fixed;
+}
+
+.hamburgerActive {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #141c3a;
+  width: 225px;
+  height: 100vh;
+  left: 0;
+  z-index: 1;
+  transition: 800ms;
+}
+
+.hamburgerActive li,
+a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+}
+
+.hamburgerActive a {
+  color: white;
+}
+
+.hamburgerActive ul {
+  padding: 10px;
+}
+
+.hamburgerActive li:hover {
+  background-color: #fff;
+  color: #141c3a;
+  transition: 100ms;
+}
+
+.hamburgerActive li:hover i,
+a {
+  color: #141c3a;
+}
+
+.hamburgerActive li:hover a {
+  color: #141c3a;
+}
+
+.hamburgerActive i {
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.hamburger i {
+  color: #141c3a;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    padding: 0.5rem 0.5rem;
+  }
 }

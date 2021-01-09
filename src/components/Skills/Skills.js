@@ -8,7 +8,7 @@ function Skills(props) {
             <div className={styles.skills}>
                 <div className={styles.skillsInfo}>
                 <h1>Tech skills</h1>
-                <h4>These are the most used skills in my coding. Because i focus on front-end i picked up React as soon as i got the basics from HTML, CSS and JS. Im also learning to use libarys such as Material UI to speed up my styling and coding process.</h4>
+                <h4>These are the most used skills in my coding. Because i focus on front-end i picked up React as soon as i got the basics from HTML, CSS and JS. Im also learning to use framwork such as Material UI to speed up my styling and coding process.</h4>
                 </div>
                 <ul>
                 <li><span><i className={cx(styles.one, "fab fa-lg fa-html5")}></i></span></li>

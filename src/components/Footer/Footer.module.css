@@ -6,7 +6,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: center;
-  margin: 0;
+  flex-direction: column;
 }
 
 .links i {
@@ -16,6 +16,12 @@
   box-shadow: 0px 0px 2px #888;
   padding: 13px 14px;
   border: 2px solid transparent;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
 .links i:hover {

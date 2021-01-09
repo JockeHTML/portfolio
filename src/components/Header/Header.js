@@ -12,7 +12,7 @@ function Header(props) {
                 <img className={styles.headerImage} src="" alt=""/>
             </div>
             <div className={styles.iconDiv}>
-            <a href="#section-one"><i className="fas fa-lg fa-arrow-circle-down"></i></a>
+                <a href="#section-one"><i className="fas fa-lg fa-arrow-circle-down"></i></a>
             </div> 
         </div>
     );
