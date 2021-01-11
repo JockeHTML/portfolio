@@ -68,7 +68,7 @@
 
 .todo {
   filter: grayscale(90%);
-  background: url("../../images/notebook.jpg");
+  background: url("../../images/shoe.jpg");
   background-size: cover;
   opacity: 0.9;
 }

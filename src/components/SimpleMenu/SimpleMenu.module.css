@@ -4,18 +4,13 @@
   padding: 1rem 1rem 1rem 0;
 }
 
-.SimpleMenuButton {
-  background-color: transparent;
-  color: #141c3a;
-  position: fixed;
-}
-
 .hamburger {
   align-items: center;
   background-color: transparent;
   padding: 1.5rem 1.5rem;
   display: flex;
   position: fixed;
+  width: 0px;
 }
 
 .hamburgerActive {
@@ -23,7 +18,7 @@
   display: flex;
   flex-direction: column;
   background-color: #141c3a;
-  width: 225px;
+  width: 240px;
   height: 100vh;
   left: 0;
   z-index: 1;

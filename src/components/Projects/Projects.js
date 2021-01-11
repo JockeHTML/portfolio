@@ -32,8 +32,8 @@ function Projects(props) {
                     onMouseEnter={() => setHoverThree(true)} 
                     onMouseLeave={() => setHoverThree(false)}
                     className={hoverThree ? styles.hover : styles.todo}>
-                    {hoverThree ? <h4>Add to do notes for chosen day, and remove when done.</h4> : null}
-                    {hoverThree ? <div className={styles.links}><a href="https://github.com/JockeHTML/todo-project">GITHUB</a> <a href="https://joakim-todo-project.herokuapp.com">DEMO</a></div> : <h2>TO DO APP</h2>}
+                    {hoverThree ? <h4>Shoe shopping dummy site. Add to cart, shoe info and more.</h4> : null}
+                    {hoverThree ? <div className={styles.links}><a href="https://github.com/JockeHTML/shoppingCart-project">GITHUB</a> <a href="https://joakim-shopping-project.herokuapp.com">DEMO</a></div> : <h2>SHOPPING APP</h2>}
                 </div> 
                 <div id={styles.projectFour} 
                     onMouseEnter={() => setHoverFour(true)} 
