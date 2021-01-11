@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 function Header(props) {
     return (
         <div className={styles.headerContainer}>
-            <div className={styles.headerDiv}>
+            <div className={styles.headerText}>
                 <h1>Hello, i'm Joakim</h1>
                 <h4>A self taught web developer</h4>
             </div> 

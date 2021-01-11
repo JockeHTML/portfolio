@@ -77,6 +77,6 @@ a {
 
 @media (max-width: 768px) {
   .hamburger {
-    padding: 0.5rem 0.5rem;
+    padding: 1rem;
   }
 }

@@ -76,4 +76,7 @@
   .aboutAltInfo {
     width: 90%;
   }
+  .aboutAltInfo h1 {
+    line-height: 1;
+  }
 }

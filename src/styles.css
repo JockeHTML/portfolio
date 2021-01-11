@@ -28,19 +28,19 @@ h4 {
 
 .section-one {
   color: #141c3a;
-  background-color: #c0f5d6;
+  background-color: #c0f5cd;
   display: flex;
-  padding: 0 2rem 0 2rem;
+  padding: 0 1rem 0 1rem;
 }
 .section-two {
   color: #141c3a;
   display: flex;
-  padding: 0 2rem 0 2rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .section-three {
   color: #141c3a;
-  padding: 0 2rem 0 2rem;
+  padding: 0 1rem 0 1rem;
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -48,6 +48,6 @@ h4 {
 
 .section-five {
   color: #141c3a;
-  background-color: #dafdf8;
+  background-color: #dafdf1;
   padding: 2rem 0 5rem 0;
 }

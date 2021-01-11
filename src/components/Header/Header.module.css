@@ -6,13 +6,13 @@
   flex-direction: column;
 }
 
-.headerDiv {
+.headerText {
   padding-top: 4rem;
   padding-bottom: 4rem;
   margin: 0;
 }
 
-.headerDiv h1 {
+.headerText h1 {
   font-weight: 800;
   font-size: 3rem;
   line-height: 1.35rem;
@@ -93,11 +93,12 @@
     height: 450px;
     width: 400px;
   }
-  .headerDiv h4 {
+  .headerText h4 {
     padding: 0;
   }
-  .headerDiv {
-    padding-top: 2rem;
+  .headerText {
+    padding-top: 4rem;
+    padding-bottom: 0;
   }
 }
 
