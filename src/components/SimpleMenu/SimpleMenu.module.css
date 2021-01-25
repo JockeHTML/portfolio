@@ -18,11 +18,11 @@
   display: flex;
   flex-direction: column;
   background-color: #141c3a;
-  width: 240px;
+  width: 260px;
   height: 100vh;
   left: 0;
   z-index: 1;
-  transition: 800ms;
+  transition: 450ms;
 }
 
 .hamburgerActive li,

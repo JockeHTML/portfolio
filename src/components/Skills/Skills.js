@@ -15,7 +15,6 @@ function Skills(props) {
                     <li><span><i className={cx(styles.two, "fab fa-lg fa-css3-alt")}></i></span></li>
                     <li><span><i className={cx(styles.five, "fa-lg fab fa-js-square")}></i></span></li>
                     <li><span><i className={cx(styles.three, "fab fa-lg fa-react")}></i></span></li>
-                    <li><span><i className={cx(styles.four, "fab fa-lg fa-node-js")}></i></span></li>
                 </ul>
             </div>
         </div>

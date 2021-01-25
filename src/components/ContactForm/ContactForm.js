@@ -21,7 +21,6 @@ function ContactForm(props) {
         <div className={styles.formWrapper}>
             <div className={styles.formHeading}>
                 <h1>CONTACT ME</h1>
-                <h4>Wanna get in touch?</h4>
             </div>
                 <form autoComplete="off" onSubmit={sendEmail} className={styles.form}>
                     <div className={cx (styles.input, styles.name)}>

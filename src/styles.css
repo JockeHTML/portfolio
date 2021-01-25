@@ -27,8 +27,8 @@ h4 {
 }
 
 .section-one {
-  color: #141c3a;
-  background-color: #c0f5cd;
+  color: #fff;
+  background: linear-gradient(45deg, #b39c68, #a56365, #412e4c);
   display: flex;
   padding: 0 1rem 0 1rem;
 }
@@ -47,7 +47,7 @@ h4 {
 }
 
 .section-five {
-  color: #141c3a;
-  background-color: #dafdf1;
+  color: #fff;
+  background: #caa1a3;
   padding: 2rem 0 5rem 0;
 }

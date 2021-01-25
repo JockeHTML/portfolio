@@ -6,42 +6,71 @@ function Projects(props) {
     const [ hovertwo, setHoverTwo ] = useState(false);
     const [ hoverThree, setHoverThree ] = useState(false);
     const [ hoverFour, setHoverFour ] = useState(false);
+    const [ hoverFive, setHoverFive ] = useState(false);
+
 
     return (
         <div className={styles.projectsContainer}>
             <div className={styles.projectsHeading}>
                 <h1>My projects</h1>
-                <h4>Here are a few of my projects i have built on my later part of learning to code. I have gotten inspiration from both guides and videos, but put a personal touch on it.</h4>
+                <h4>Here are a few of my projects i have built on my later part of learning to code. I have got inspiration and design ideas from other apps, then made them my own.</h4>
             </div>
             <div className={styles.projects}>
-                <div id={styles.projectOne} 
-                    onMouseEnter={() => setHoverOne(true)} 
-                    onMouseLeave={() => setHoverOne(false)}
-                    className={hoverOne ? styles.hover : styles.movie}>
-                    {hoverOne ? <h4>Search for your movie, and get information card.</h4> : null}
-                    {hoverOne ? <div className={styles.links}><a href="https://github.com/JockeHTML/movie-project">GITHUB</a> <a href="https://joakim-movie-project.herokuapp.com">DEMO</a></div> : <h2>MOVIE APP</h2>}
-                </div> 
+            <div id={styles.projectOne} 
+                    onMouseEnter={() => setHoverFive(true)} 
+                    onMouseLeave={() => setHoverFive(false)}
+                    className={hoverFive ? styles.hover : styles.mestKunskap}>
+                    {hoverFive ? <h4>Static website made for a friends company.</h4> : null}
+                    {hoverFive ? <div className={styles.links}>
+                    <a href="https://github.com/JockeHTML/mest-kunskap">GITHUB</a>
+                    <a href="https://mestkunskap.netlify.app/">DEMO</a>
+                    </div> 
+                    : <h2>MEST KUNSKAP</h2>}
+                </div>
                 <div id={styles.projectTwo} 
                     onMouseEnter={() => setHoverTwo(true)} 
                     onMouseLeave={() => setHoverTwo(false)}
                     className={hovertwo ? styles.hover : styles.weather}>
                     {hovertwo ? <h4>Get todays weather and forecast for your city.</h4> : null}
-                    {hovertwo ? <div className={styles.links}><a href="https://github.com/JockeHTML/weather-project">GITHUB</a> <a href="https://joakim-weather-project.herokuapp.com">DEMO</a></div> : <h2>WEATHER APP</h2>}
+                    {hovertwo ? <div className={styles.links}>
+                    <a href="https://github.com/JockeHTML/weather-project">GITHUB</a>
+                    <a href="https://joakim-weather-project.herokuapp.com">DEMO</a>
+                    </div> 
+                    : <h2>WEATHER APP</h2>}
                 </div> 
                  <div id={styles.projectThree} 
                     onMouseEnter={() => setHoverThree(true)} 
                     onMouseLeave={() => setHoverThree(false)}
                     className={hoverThree ? styles.hover : styles.todo}>
-                    {hoverThree ? <h4>Shoe shopping dummy site. Add to cart, shoe info and more.</h4> : null}
-                    {hoverThree ? <div className={styles.links}><a href="https://github.com/JockeHTML/shoppingCart-project">GITHUB</a> <a href="https://joakim-shopping-project.herokuapp.com">DEMO</a></div> : <h2>SHOPPING APP</h2>}
+                    {hoverThree ? <h4>Shopping site, shoe information and more.</h4> : null}
+                    {hoverThree ? <div className={styles.links}>
+                    <a href="https://github.com/JockeHTML/shoppingCart-project">GITHUB</a>
+                    <a href="https://joakim-shopping-project.herokuapp.com">DEMO</a>
+                    </div> 
+                    : <h2>SHOPPING APP</h2>}
                 </div> 
                 <div id={styles.projectFour} 
                     onMouseEnter={() => setHoverFour(true)} 
                     onMouseLeave={() => setHoverFour(false)}
                     className={hoverFour ? styles.hover : styles.covid}>
-                    {hoverFour ? <h4>Find covid-19 stats for yours and other countries.</h4> : null}
-                    {hoverFour ? <div className={styles.links}><a href="https://github.com/JockeHTML/covid-project">GITHUB</a> <a href="https://joakim-covid-project.herokuapp.com">DEMO</a></div> : <h2>COVID APP</h2>}
+                    {hoverFour ? <h4>Covid-19 stats for your and other countries.</h4> : null}
+                    {hoverFour ? <div className={styles.links}>
+                    <a href="https://github.com/JockeHTML/covid-project">GITHUB</a>
+                    <a href="https://joakim-covid-project.herokuapp.com">DEMO</a>
+                    </div> 
+                    : <h2>COVID APP</h2>}
                 </div>
+                <div id={styles.projectOne} 
+                    onMouseEnter={() => setHoverOne(true)} 
+                    onMouseLeave={() => setHoverOne(false)}
+                    className={hoverOne ? styles.hover : styles.movie}>
+                    {hoverOne ? <h4>Search for your movie, info card and more.</h4> : null}
+                    {hoverOne ? <div className={styles.links}>
+                    <a href="https://github.com/JockeHTML/movie-project">GITHUB</a>
+                    <a href="https://joakim-movie-project.herokuapp.com">DEMO</a>
+                    </div> 
+                    : <h2>MOVIE APP</h2>}
+                </div>   
             </div>
 
         </div>

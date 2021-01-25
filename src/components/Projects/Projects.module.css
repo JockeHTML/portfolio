@@ -22,8 +22,9 @@
 }
 
 .projects h4 {
+  font-size: 1rem;
   display: flex;
-  padding: 15px 15px 0 15;
+  padding: 0px 15px 0 15;
 }
 
 .projects h2 {
@@ -35,8 +36,6 @@
 
 .projects > div {
   display: flex;
-  justify-content: center;
-  align-items: center;
   justify-content: center;
   align-items: center;
 }
@@ -73,6 +72,12 @@
   opacity: 0.9;
 }
 
+.mestKunskap {
+  background: url("../../images/code.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
 .covid {
   background: url("../../images/covid.jpg");
   background-size: cover;
@@ -100,24 +105,25 @@
 
 .projects :hover {
   opacity: 1;
+  transition: 400ms;
 }
 
 .hover a {
   margin-right: 10px;
   margin-top: 0;
-  border: 1px solid #c7e6e2;
+  border: 1px solid #fff;
   padding: 1rem;
-  color: #c7e6e2;
+  color: #fff;
   text-decoration: none;
   border-radius: 290486px;
   border-width: 2px;
-  transition: 0.3s;
-  font-size: 1rem;
+  transition: 200ms;
+  font-size: 1.2rem;
   font-weight: 800;
 }
 
 .hover a:hover {
-  background-color: #c7e6e2;
+  background-color: #fff;
   color: #141c3a;
   font-weight: 800;
 }

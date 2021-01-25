@@ -16,8 +16,7 @@
 
 .formHeading h1 {
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 0;
+  padding: 3rem 0;
 }
 
 .input input {
@@ -48,14 +47,14 @@
   font-size: 1.1rem;
   padding: 12px;
   border: 2px solid transparent;
-  color: #dafdf8;
+  color: #fff;
   background-color: #141c3a;
   font-weight: 400;
 }
 
 .formButton button:hover {
   color: #141c3a;
-  background-color: #dafdf8;
+  background-color: #fff;
   transition: 0.3s;
   border: 2px solid #141c3a;
 }
