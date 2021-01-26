@@ -20,7 +20,7 @@ function Projects(props) {
                     onMouseEnter={() => setHoverFive(true)} 
                     onMouseLeave={() => setHoverFive(false)}
                     className={hoverFive ? styles.hover : styles.mestKunskap}>
-                    {hoverFive ? <h4>Static website made for a friends company.</h4> : null}
+                    {hoverFive ? <h4>Website made for a client with a small business.</h4> : null}
                     {hoverFive ? <div className={styles.links}>
                     <a href="https://github.com/JockeHTML/mest-kunskap">GITHUB</a>
                     <a href="https://mestkunskap.netlify.app/">DEMO</a>
