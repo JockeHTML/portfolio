@@ -21,12 +21,6 @@
   justify-content: center;
 }
 
-.projects h4 {
-  font-size: 1rem;
-  display: flex;
-  padding: 0px 15px 0 15;
-}
-
 .projects h2 {
   font-family: "Acme", sans-serif;
   color: #fff;
@@ -45,7 +39,7 @@
   margin: 1rem;
   min-height: 200px;
   width: 33.33%;
-  border-radius: 12px;
+  border-radius: 10px;
   transition: 0.6s ease-out;
 }
 
