@@ -3,11 +3,11 @@ import styles from './SimpleMenu.module.css';
 import {menuData} from "../Context/Context";
 
 function SimpleMenu() {
- 
-  const [ sidebar, setSideBar ] = useState(false);
 
-  const showSidebar = () => {
-  setSideBar(!sidebar);}
+    /* State set for showing sidebar menu */
+    const [ sidebar, setSideBar ] = useState(false);
+    const showSidebar = () => {
+    setSideBar(!sidebar);}
 
   return (
         <div className={styles.wrapper}>

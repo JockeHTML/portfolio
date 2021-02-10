@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 import styles from './ContactForm.module.css';
 import cx from 'classnames';
 
+/* Email code setup via EmailJS for a simple and quick email service */
+
 const sendEmail = (e) => {
     e.preventDefault();
 
