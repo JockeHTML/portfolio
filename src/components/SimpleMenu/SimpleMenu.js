@@ -17,7 +17,7 @@ function SimpleMenu() {
                 <ul>
                     {menuData.map((data, index) => {
                         return (
-                        <li key={index}>
+                        <li onClick={showSidebar} key={index}>
                         <i className={data.icon}></i>
                         <a href={data.href} className={styles.SimpleMenuLinks}>{data.title}</a>
                     </li>)
