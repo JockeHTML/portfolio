@@ -17,7 +17,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  background-color: #141c3a;
+  background-color: var(--bg);
   width: 260px;
   height: 100vh;
   left: 0;
@@ -35,37 +35,49 @@ a {
 }
 
 .hamburgerActive a {
-  color: white;
+  color: #222;
 }
 
 .hamburgerActive ul {
   padding: 10px;
 }
 
+.hamburgerActive li {
+  display: flex;
+  align-items: center;
+}
+
 .hamburgerActive li:hover {
   background-color: #fff;
-  color: #141c3a;
+  color: var(--bg);
   transition: 100ms;
 }
 
 .hamburgerActive li:hover i,
 a {
-  color: #141c3a;
+  color: var(--text);
 }
 
 .hamburgerActive li:hover a {
-  color: #141c3a;
+  color: #222;
+}
+
+.hamburger i {
+  color: #222;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 1rem;
 }
 
 .hamburgerActive i {
-  color: #fff;
+  color: #222;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 1rem;
 }
 
 .hamburger i {
-  color: #141c3a;
+  color: var(--text);
   font-size: 1.5rem;
   cursor: pointer;
 }

@@ -6,7 +6,7 @@ function Header(props) {
         <div className={styles.headerContainer}>
             <div className={styles.headerText}>
                 <h1>Hello, i'm Joakim</h1>
-                <h4>A self taught web developer</h4>
+                <h3>A self taught web developer</h3>
             </div> 
             <div className={styles.imageDiv}>
                 <img className={styles.headerImage} src="" alt=""/>

@@ -13,7 +13,7 @@ function Projects(props) {
         <div className={styles.projectsContainer}>
             <div className={styles.projectsHeading}>
                 <h1>My projects</h1>
-                <h4>Here are a few of my projects i have built on my later part of learning to code. I have got inspiration and design ideas from other apps, then made them my own.</h4>
+                <p>Here are a few of my latest projects i have made during the later part of learning to code. My inspiration often comes from guides and other real life apps, then i make them my own.  </p>
             </div>
             <div className={styles.projects}>
             <div id={styles.projectOne} 

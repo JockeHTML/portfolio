@@ -41,23 +41,22 @@
 }
 
 .formButton button {
-  margin-top: 5px;
+  margin-top: 1rem;
   cursor: pointer;
-  box-shadow: 0px 0px 2px #888;
-  font-size: 1.1rem;
-  padding: 12px 20px;
+  font-size: 1.2rem;
+  padding: 15px 40px;
   border: 2px solid transparent;
   color: #fff;
-  background-color: #141c3a;
+  background-color: #222;
   font-weight: 400;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .formButton button:hover {
-  color: #141c3a;
-  background-color: #fff;
+  color: var(--text);
+  background-color: var(--bg);
   transition: 0.3s;
-  border: 2px solid #141c3a;
+  border: 2px solid var(--text);
 }
 
 @media (max-width: 768px) {
@@ -81,7 +80,7 @@
     width: 90%;
   }
   .formButton button {
-    font-size: 14px;
+    font-size: 15px;
   }
   .formHeading h1 {
     font-size: 2.2rem;

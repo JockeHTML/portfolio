@@ -12,7 +12,7 @@ function SimpleMenu() {
   return (
         <div className={styles.wrapper}>
             <div className={sidebar ? styles.hamburgerActive : styles.hamburger}>
-                <span onClick={showSidebar}>{sidebar ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}</span>
+                <span onClick={showSidebar}>{sidebar ? <i style={{color: "red"}} className="fas fa-times"></i> : <i className="fas fa-bars"></i>}</span>
                 {sidebar ? 
                 <ul>
                     {menuData.map((data, index) => {

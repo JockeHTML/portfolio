@@ -6,6 +6,11 @@
   border-top: 1.5px solid #e6ecf8;
 }
 
+.skillsContainer p {
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
 .skillsInfo {
   margin: auto;
   text-align: center;
@@ -61,7 +66,7 @@ li {
   .skillsContainer h1 {
     font-size: 2.5rem;
   }
-  .skillsContainer h4 {
+  .skillsContainer p {
     font-size: 1.4rem;
   }
   .skillsContainer {
@@ -80,7 +85,7 @@ li {
     font-size: 2.1rem;
   }
 
-  .skillsContainer h4 {
+  .skillsContainer p {
     font-weight: 300;
     font-size: 1.1rem;
   }

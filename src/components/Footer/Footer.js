@@ -9,7 +9,7 @@ function Footer(props) {
                 <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/joakim-andersson-3551851b0/"><i className="fab fa-md fa-linkedin-in"></i></a>
             </div>
             <div className={styles.copyright}>
-                <p>JOAKIM ANDERSSON © 2021</p>
+                <p>COPYRIGHT©2021 <span>JOAKIM ANDERSSON</span> ALL RIGHTS RESERVED</p>
             </div>
             
         </div>
