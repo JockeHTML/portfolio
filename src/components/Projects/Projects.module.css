@@ -193,12 +193,7 @@
   .projectsHeading {
     display: flex;
     flex-direction: column;
-    width: 80%;
-  }
-}
-
-@media (max-width: 450px) {
-  .projectsHeading {
     width: 90%;
+    padding: 0 1rem;
   }
 }
