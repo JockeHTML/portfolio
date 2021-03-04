@@ -52,6 +52,12 @@
   padding: 1.1rem;
 }
 
+.seDack {
+  background: url("../../images/tire.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
 .movie {
   background: url("../../images/movie.jpg");
   background-size: cover;
