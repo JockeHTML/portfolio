@@ -26,26 +26,26 @@ function Projects(props) {
           onMouseLeave={() => setHoverSix(false)}
           className={hoverSix ? styles.hover : styles.seDack}
         >
-          {hoverSix ? <h4>Website made for a friends company.</h4> : null}
+          {hoverSix ? <h4>Website made for an audit firm</h4> : null}
           {hoverSix ? (
             <div className={styles.links}>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/JockeHTML/se-dack"
+                href="https://github.com/JockeHTML/rockfield-redovisning"
               >
                 GITHUB
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://se-dack.netlify.app/"
+                href="https://awesome-meitner-c486c7.netlify.app/"
               >
                 DEMO
               </a>
             </div>
           ) : (
-            <h2>SE DÄCKSERVICE</h2>
+            <h2>ROCKFIELD </h2>
           )}
         </div>
         <div
@@ -55,7 +55,7 @@ function Projects(props) {
           className={hoverFive ? styles.hover : styles.mestKunskap}
         >
           {hoverFive ? (
-            <h4>Website made for a client with a small business.</h4>
+            <h4>Website made for a client with a small business</h4>
           ) : null}
           {hoverFive ? (
             <div className={styles.links}>
@@ -85,7 +85,7 @@ function Projects(props) {
           className={hoverTwo ? styles.hover : styles.weather}
         >
           {hoverTwo ? (
-            <h4>Get todays weather and forecast for your city.</h4>
+            <h4>Get todays weather and forecast for your city</h4>
           ) : null}
           {hoverTwo ? (
             <div className={styles.links}>
@@ -115,7 +115,7 @@ function Projects(props) {
           className={hoverThree ? styles.hover : styles.todo}
         >
           {hoverThree ? (
-            <h4>Shopping site, shoe information and more.</h4>
+            <h4>Shopping site, shoe information and more</h4>
           ) : null}
           {hoverThree ? (
             <div className={styles.links}>
@@ -145,7 +145,7 @@ function Projects(props) {
           className={hoverFour ? styles.hover : styles.covid}
         >
           {hoverFour ? (
-            <h4>Covid-19 stats for your and other countries.</h4>
+            <h4>Covid-19 stats for your and other countries</h4>
           ) : null}
           {hoverFour ? (
             <div className={styles.links}>
@@ -174,9 +174,7 @@ function Projects(props) {
           onMouseLeave={() => setHoverOne(false)}
           className={hoverOne ? styles.hover : styles.movie}
         >
-          {hoverOne ? (
-            <h4>Search for your movie, info card and more.</h4>
-          ) : null}
+          {hoverOne ? <h4>Search for your movie, info card and more</h4> : null}
           {hoverOne ? (
             <div className={styles.links}>
               <a href="https://github.com/JockeHTML/movie-project">GITHUB</a>
